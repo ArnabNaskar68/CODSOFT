@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    background-color: #333;
+    color: #fff;
+    display: flex;
+}
+nav {
+    background-position: center;
+}
+
+header ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header ul li {
+    margin: 0;
+    display: inline;
+    padding: 10px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+header ul li a:hover {
+    color: #ff9900;
+}
+
+.animated-text {
+    text-align: center;
+}
+
+.animate {
+    font-size: 36px;
+    opacity: 0;
+    animation: fadeInOut 2s infinite;
+}
+
+.profile-picture {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#hero {
+    text-align: center;
+}
+
+.project {
+    margin: 20px;
+    text-align: center;
+}
+
+.project img {
+    max-width: 100%;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.button:hover {
+    background-color: #ff9900;
+    color: #333;
+}
+
+@keyframes fadeInOut {
+    0%, 100% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+}
